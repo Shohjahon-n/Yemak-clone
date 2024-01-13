@@ -8,3 +8,15 @@
         border-radius: 5px;
     }
 }
+@media only screen and (max-width: 768px){
+.search_content{
+    input{
+        text-align: center;
+        background-color: yellow;
+        border-radius: 30px;
+        &:focus{
+            background-color: white;
+        }
+    }
+}
+}
