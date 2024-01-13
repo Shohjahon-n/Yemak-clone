@@ -7,13 +7,11 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-
     .header-content {
         display: flex;
         justify-content: center;
         align-items: center;
         width: 100%;
-
         .header-main {
             display: flex;
             justify-content: space-between;
@@ -22,10 +20,10 @@ header {
 
             .icon {
                 width: 100%;
-                max-width: 370px;
+                max-width: 450px;
                 display: flex;
-                align-items: center;
-                gap: 15px;
+                align-items: flex-start;
+                gap: 25px;
                 flex-direction: column;
             }
 
