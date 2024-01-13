@@ -11,7 +11,6 @@ export default function Header() {
                 <div className="header-main">
                     <div className="icon">
                         <img src={YemakIcon} alt="YemakLogo" />
-                        <SearchInp />
                     </div>
                     <div className="log-in">
                         <div className="location-btn">
@@ -22,6 +21,7 @@ export default function Header() {
                         </div>
                     </div>
                 </div>
+                <SearchInp />
             </div>
         </header>
     )

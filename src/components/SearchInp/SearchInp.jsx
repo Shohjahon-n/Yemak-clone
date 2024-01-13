@@ -9,17 +9,17 @@ export default function SearchInp() {
     const changeBlur = () => {
         setFocus(true)
     }
-    return(
+    return (
         <div className="search_content">
             <form action="/">
-                <input 
-                type="text" 
-                placeholder="Restoran yoki taom nomini kiriting" 
-                onChange={(e)=> setValue(e.target.value)} 
-                value={value}
-                className={focus}
-                onBlur={()=> changeFocus()}
-                onFocus={() => changeBlur()}
+                <input
+                    type="text"
+                    placeholder="Restoran yoki taom nomi"
+                    onChange={(e) => setValue(e.target.value)}
+                    value={value}
+                    className={focus}
+                    onBlur={() => changeFocus()}
+                    onFocus={() => changeBlur()}
                 />
             </form>
         </div>
