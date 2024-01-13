@@ -20,6 +20,14 @@ header {
             align-items: center;
             width: 100%;
 
+            .icon {
+                width: 100%;
+                max-width: 370px;
+                display: flex;
+                align-items: center;
+                gap: 15px;
+                flex-direction: column;
+            }
 
             .log-in {
                 display: flex;
