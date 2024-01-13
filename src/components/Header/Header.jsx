@@ -1,8 +1,8 @@
-import React from "react";
 import './Header.scss';
 import YemakIcon from '../../assets/icons/yemak-icon.svg';
-
 import locationImg from '../../assets/icons/location-btn.png';
+//components
+import SearchInp from '../SearchInp/SearchInp';
 
 export default function Header() {
     return (
@@ -11,6 +11,7 @@ export default function Header() {
                 <div className="header-main">
                     <div className="icon">
                         <img src={YemakIcon} alt="YemakLogo" />
+                        <SearchInp />
                     </div>
                     <div className="log-in">
                         <div className="location-btn">
