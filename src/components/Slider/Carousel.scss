@@ -1,19 +1,33 @@
-.slider {
-    margin: 30px 0 0 0;
+.carousel {
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+    user-select: none;
 
-    .item {
+    .carousel_item {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        border: 1px solid #eee;
+        gap: 15px;
         width: 144px;
         height: 144px;
-        border-radius: 20px;
+        border: 1px solid #EEE;
+        border-radius: 15px;
 
         img {
             width: 60px;
             height: 60px;
+        }
+
+        p {
+            font-size: 18px;
+        }
+
+        &:hover {
+            p {
+                color: #007bff;
+            }
         }
     }
 }
