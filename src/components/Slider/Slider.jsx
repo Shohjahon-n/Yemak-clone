@@ -1,4 +1,4 @@
-function Slider(props) {
+function Slider() {
         return (
         <div>
             <h1>test</h1>
