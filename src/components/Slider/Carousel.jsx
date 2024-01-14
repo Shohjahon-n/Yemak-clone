@@ -6,7 +6,7 @@ import muzqaymoq from '../../assets/icons/muzqaymoq-icon.png';
 import shirinliklar from '../../assets/icons/shirinliklar-icon.png';
 import yevropa from '../../assets/icons/yevropa-food-icon.png';
 import milliy from '../../assets/icons/milliy-food-icon.png';
-
+// This is slider page
 function Carousel() {
 
     return (
