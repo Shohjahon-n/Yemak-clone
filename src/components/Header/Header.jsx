@@ -1,6 +1,7 @@
 import './Header.scss';
 import YemakIcon from '../../assets/icons/yemak-icon.svg';
 import locationImg from '../../assets/icons/location-btn.png';
+import loginImg from '../../assets/icons/login.png';
 import { useState } from 'react';
 //components
 import SearchInp from '../SearchInp/SearchInp';
@@ -26,6 +27,10 @@ export default function Header() {
                         <div className="log-up">
                             <button onClick={changeActive} className="login-btn">Kirish</button>
                         </div>
+                    </div>
+                    <div className="log-in-phone" onClick={changeActive}>
+                        <div className="login-phone-btn"><img src={loginImg}
+                            alt="login-phone" /></div>
                     </div>
                 </div>
                 <SearchInp />
