@@ -15,6 +15,7 @@
         background-color: #ffc107;
         border-radius: 100%;
         transition: 0.5s;
+
         svg {
             width: 20px;
             height: 20px;
@@ -27,12 +28,14 @@
 
     .prev_img {
         transform: rotate(180deg);
-        
+
     }
+
     .all_items {
         display: flex;
         gap: 20px;
         justify-content: center;
+
         .carousel_item {
             display: flex;
             flex-direction: column;
@@ -43,18 +46,18 @@
             height: 144px;
             border: 1px solid #EEE;
             border-radius: 15px;
-    
+
             img {
                 width: 60px;
                 height: 60px;
             }
-    
+
             p {
                 font-size: 18px;
                 font-family: sans-serif;
                 font-weight: 600;
             }
-    
+
             &:hover {
                 p {
                     color: #007bff;
