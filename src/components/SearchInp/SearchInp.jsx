@@ -17,10 +17,12 @@ export default function SearchInp() {
                     placeholder="Restoran yoki taom nomi"
                     onChange={(e) => setValue(e.target.value)}
                     value={value}
-                    className={focus}
                     onBlur={() => changeFocus()}
                     onFocus={() => changeBlur()}
                 />
+                {
+                    focus ? <span className='inp_focus'></span> : null
+                }
             </form>
         </div>
     )
